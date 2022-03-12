@@ -1,6 +1,6 @@
 # Company-Bankruptcy-Prediction
 
-**1. Business problem and motivation**
+# 1. Business problem and motivation
 The ability to predict corporate bankruptcy would be beneficial for several
 stakeholders, including:
 - Investors
@@ -14,18 +14,18 @@ signs that a company is going to enter bankruptcy involuntarily and being able t
 save it from that process, can help reduce the economic losses that bankruptcy
 entails, both in quantitative and qualitative terms.
 
-**2. Dataset:**
+# 2. Dataset:
 https://www.kaggle.com/fedesoriano/company-bankruptcy-prediction
 The data were collected from the Taiwan Economic Journal for the years 1999 to
 2009. Company bankruptcy was defined based on the business regulations of the
 Taiwan Stock Exchange.
 
-**3. Aims of the study**
+# 3. Aims of the study
 The aim of the study is to narrow down the variables that could potentially predict a
 company's bankruptcy and to know the value of these variables at which it is likely
 that the company will bankrupt.
 
-**4. Research Questions**
+# 4. Research Questions
 
 This project is an exploratory study that identifies the relevant indicators for the classification of corporate bankruptcy in Taiwan from 1999 to 2000. The research questions are determined as follows:
 - Which variables play the most important roles in company bankruptcy?
@@ -33,7 +33,7 @@ This project is an exploratory study that identifies the relevant indicators for
 - Which model is the best for predicting bankruptcy? Why?
 
 
-**5. Methods**
+# 5. Methods
 
 To highlight the positive effect of rebalancing, we first train a model on the original, unbalanced data set.
 Next, we will use SMOTE (Synthetic Minority Oversampling Technique) to rebalance the training data.
@@ -43,14 +43,14 @@ To evaluate models, we will use the following evaluation methods:
 - Confusion matrix
 - AUC (Area Under the Curve) and ROC curve
 
-**6. Conclusion**
+# 6. Conclusion
 
 - The project focused on decision trees, SVM, and logistic regression. The full potential of other models for predictions in the data set at hand should be explored in future research endeavors.
 - Rebalancing significantly improves the results
 - Features like Fixed Assets to Assets, Operating Expense Rate could provide policy implications for all of the involved stakeholders in early bankruptcy detection.
 - As for bankruptcy prediction, the balanced decision tree model is able to predict a few bankruptcy, albeit with large amount of false positive.
 
-**7. Limitations and Future work**
+# 7. Limitations and Future work
 
 - The current max depth of Decision Tree model is 3, which could make the model underfitting. Therefore, we will try to find the best max depth
 - We could try different methods of feature selection in order to deal with multicollinearity such as PCA or partial least squares regression
